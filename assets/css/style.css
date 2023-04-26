@@ -1,0 +1,33 @@
+.imagen{
+    margin-left: 60px;
+}
+
+ul{
+    margin-right: 170px;
+}
+.nav-item{
+    color: #fff; 
+}
+
+.text-izq{
+    text-align: left;
+}
+
+h1{
+    font-family: 'EB Garamond Medium';
+    font-style: oblique;
+    font-weight: 500;
+    
+}
+
+h5{
+    font-family: 'Roboto Light';
+    font-style: normal;
+    font-weight: 400;
+}
+
+h3{
+    font-family: 'Roboto Medium';
+    font-style: italic;
+    font-weight: 400;
+}
