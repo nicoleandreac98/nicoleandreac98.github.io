@@ -13,20 +13,9 @@ $(document).ready(function() {
       }, 3000); // El número indica la duración de la animación en milisegundos
     });
 
-
-    const quienes = document.querySelector('#quienes');
-
-    function hidePresentation() {
-        if (window.innerWidth < 768) {
-        quienes.style.display = 'none';
-        } else {
-        quienes.style.display = 'block';
-        }
-    }
-
-    window.addEventListener('resize', hidePresentation);
-
-
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]')) 
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) { return new bootstrap.Tooltip(tooltipTriggerEl) 
+    });
 
 
 });
