@@ -1,18 +1,23 @@
+/* Se le d un margen a la imagen del logo en el nav */
 .imagen{
     margin-left: 60px;
 }
 
+/* margen para la lista ul */
 ul{
     margin-right: 170px;
 }
+/* color para las letras del nav*/
 .nav-item{
     color: #fff; 
 }
 
+/* que lso parrafis de quienes somos tenga align a la izquierda*/
 .text-izq{
     text-align: left;
 }
 
+/* Asignacion de tipos de letras estilos y demas*/
 h1{
     font-family: 'EB Garamond Medium';
     font-style: oblique;
